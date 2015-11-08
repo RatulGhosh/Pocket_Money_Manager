@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgm"
+    tools:context=".MainActivity"
+    android:id="@+id/mainlayout"
+    android:padding="20dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spend"
+        android:id="@+id/btspend"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:textColor="#ff1530"
+        android:shadowColor="#ff3421"
+        android:backgroundTint="#23ff74"
+        android:background="#22ff4e"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Cash"
+        android:id="@+id/btac"
+        android:layout_below="@+id/btspend"
+        android:layout_alignLeft="@+id/btspend"
+        android:layout_alignStart="@+id/btspend"
+        android:layout_marginTop="42dp"
+        android:backgroundTint="#23ff74"
+        android:textColor="#ff1530"
+        android:background="#1bff5c" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:id="@+id/btrecord"
+        android:layout_below="@+id/btac"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#23ff74"
+        android:textColor="#ff1530"
+        android:background="#1bff5c" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/btreset"
+        android:layout_below="@+id/btac"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#23ff74"
+        android:textColor="#ff1530"
+        android:background="#1bff5c" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/btabout"
+        android:layout_below="@+id/btrecord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#23ff74"
+        android:textColor="#ff1530"
+        android:background="#1bff5c" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#40ff4f"
+        android:background="#ff2b2f"
+        android:id="@+id/relativeLayout1">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="22dp"
+            android:layout_marginLeft="60dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:backgroundTint="#4c3dff"
+            android:text="Pocket Money Manager"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/icon" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="340dp"
+            android:src="@drawable/icon" />
+
+    </RelativeLayout>
+</RelativeLayout>
